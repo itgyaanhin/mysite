@@ -1,0 +1,115 @@
+* {margin:0;padding:0}
+body{font-family:arial;font-size:12px;line-height:18px;color:#5c5c5c;}
+h1,h2,h3,h4,h5,h6 {font-weight:normal;margin-bottom:5px;font-family: Trebuchet MS, arial, Times, "Times New Roman", serif;}
+input[type=text],input[type=password],input[type=email], textarea{}
+p {font-family:arial, serif;}
+span {color:#f85811}
+.fix {overflow:hidden}
+.floatleft {float:left}
+.floatright {float:right}
+.main {width:1000px;margin:0 auto;display:block;}
+
+.header_area {}
+.header {border-radius: 0 0 12px 12px;height:75px}
+.mainmenu {margin-left: 9px;}
+.mainmenu ul{margin:0;padding:0;list-style:none}
+.mainmenu ul li{border-style: solid;
+border-width: 0px 3px 0px 0px;
+-moz-border-image: url(images/border.png) 27 repeat;
+-webkit-border-image: url(images/border.png) 27 repeat;
+-o-border-image: url(images/border.png) 27 repeat;
+border-image: url(images/border.png) 27 fill repeat;
+float: left;
+height: 75px;
+padding-left: 40px;
+padding-right: 37px;
+padding-top: 28px;}
+.mainmenu ul li:last-child{border-right:0px solid}
+.mainmenu ul li a{font-size:16px;font-family: Trebuchet MS, arial;color:#917756;text-transform:uppercase;font-weight: bold;text-decoration:none}
+.mainmenu ul li a:hover,#curent{color:#f85811;text-decoration:none}
+.header_left {margin-right:33px}
+.header_left img{border-style: solid;
+border-width: 0px 2px 0px 0px;
+-moz-border-image: url(images/border.png) 27 repeat;
+-webkit-border-image: url(images/border.png) 27 repeat;
+-o-border-image: url(images/border.png) 27 repeat;
+border-image: url(images/border.png) 27 fill repeat;
+padding: 28px 33px 32px 31px;height: 16px;}
+.header_left img:first-child {padding-left:0}
+.header_left img:last-child {padding-right:0;border:none}
+.maincontent_area {border-bottom: 2px solid #FFC219;padding-bottom: 15px;}
+.condent_area {width:742px}
+.condent_body {}
+.contetn_announcement {background: url("images/biz.png") no-repeat scroll left center transparent;
+margin-left: 51px;
+margin-top: 24px;
+padding-left: 97px;
+padding-top: 31px;}
+.contetn_announcement h2{font-size:40px;color:#434343;text-transform:uppercase}
+.contetn_announcement p{font-size:13px;color:#919191;text-transform:uppercase;padding-top:5px}
+.content_image {width:742px;margin-top:31px}
+.content_image img{float:left;position: relative;}
+.text_area {border-radius: 28px 28px 28px 28px;
+color: #FFFFFF;
+float: left;
+height: 84px;
+margin-left: -64px;
+padding: 51px 32px 72px 31px;
+text-align: center;
+width: 232px;}
+.text_area h2{font-size:53px}
+.text_area h3{font-size: 31px;
+padding-top: 13px;}
+.text_area p{font-size: 28px;
+padding-top: 18px;}
+.content_message {margin-left: 32px;
+margin-top: 34px;
+width: 635px;}
+.content_message h2{text-transform:uppercase;font-size:30px;color:#434343;padding-top:2px}
+.content_message p{font-size:13px;color:#5c5c5c;padding: 19px 0;}
+.contetn_update {margin-top: 35px;width: 666px;}
+.contetn_update h2{font-size:13px;font-weight:bold;color:#919191}
+.latest_news {width:326px;margin-right:14px}
+.single_news_bar {padding: 23px 30px 8px 33px;}
+.recent_articles {width:326px}
+#heading{background: none repeat scroll 0 0 #FFD538;
+border: 1px solid #FCB825;
+border-radius: 11px 11px 11px 11px;
+color: #434343;
+font-size: 25px;
+padding: 17px 15px 16px 34px;
+text-transform: uppercase;}
+.single_post_bar {padding: 23px 30px 8px 33px;}
+.single_post_bar img{float:left}
+.slidebar {margin-top: 51px;
+padding-right: 25px;
+width: 233px;}
+.search_box {}
+.search_box img{height: 28px;
+padding: 4px 9px 1px 7px;}
+#search_field {border: 1px solid #DDDDDD;
+height: 11px;
+padding-top: 20px;
+width: 183px;}
+.our_resource {margin-top: 40px;}
+.our_resource h2{color:#f85811;font-size:16px;font-weight:bold}
+.our_resource p{font-size: 13px;
+margin-top: -2px;color:#5c5c5c}
+.single_resource {margin-bottom:17px}
+.our_services {margin-top:30px}
+.our_services h2{color:#434343;text-transform:uppercase;font-size:30px;margin-bottom:15px}
+.our_services ul{margin:0;padding:0;list-style:none;margin-top:30px}
+.our_services ul li{background: url("images/bullet.png") no-repeat scroll left center transparent;
+margin-bottom: 9px;
+padding-left: 11px;}
+.our_services ul li a{font-size:13px;color:#5c5c5c}
+#read_more {color: #FFFFFF;
+float: right;
+font-family: arial;
+font-size: 13px;
+margin-top: 16px;
+padding: 8px 0 8px 19px;
+width: 130px;}
+.footer_area {height:117px;text-align:center}
+.footer_area p{font-size:13px;color:#5c5c5c;margin-top:40px;margin-bottom:2px}
+.footer_area p:last-child{margin-top:0}
